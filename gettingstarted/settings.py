@@ -29,7 +29,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','cryptic-stream-41447.herokuapp.com']
 
-
+STATICFILES_DIRS = [
+    "./static"
+]
 # Application definition
 
 INSTALLED_APPS = [
