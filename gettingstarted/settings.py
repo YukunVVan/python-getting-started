@@ -33,8 +33,8 @@ ALLOWED_HOSTS = ['127.0.0.1','cryptic-stream-41447.herokuapp.com']
 #     "./hello/static"
 # ]
 
-Static files (CSS, JavaScript, Images)
-https://docs.djangoproject.com/en/1.9/howto/static-files/
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.9/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
